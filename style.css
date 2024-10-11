@@ -1,0 +1,50 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.img-logo {
+  width: 400px;
+  text-align: right; 
+}
+
+.img-pizza {
+  width: 390px;
+}
+.drinks-img {
+  height: 100px;
+}
+.img-footer {
+  height: 100px; 
+  width: 1000px; /* Added 'px' */
+}
+
+h1 {
+  font-size: 2rem; /* Changed to a specific size */
+  text-align: center; /* Centering the title */
+}
+
+.lesson-masthead {
+  background-color: #fff3e0; /* Example background color */
+  padding: 20px;
+  width:auto;
+}
+
+.flex-content-container {
+  display: flex;
+  justify-content: space-between; /* Adjust alignment of main and aside */
+  padding: 20px;
+}
+
+
+
+footer {
+ 
+ 
+  text-align: center;
+  padding: 20px;
+  background-color: #ff0000; /* Pizza Hut Red */
+  color: white;
+}
+

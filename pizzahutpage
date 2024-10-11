@@ -1,0 +1,140 @@
+<!doctype html>
+    <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="I am making pizza website page">
+  <meta name="robots" content="noindex, nofollow">
+  <title>PIZZA HUT | Order your pizza</title>
+  <!-- add Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- add our CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- add our header -->
+<header>
+  <!-- logo container -->
+  <div>
+    <a href="index.html"><img class="img-logo" src="img/pizza-hut-logo-transparent-2.png" alt="header logo"></a>
+     
+  </div>
+  <div>
+  <!--pizza images-->
+  
+       <img class="img-pizza" src="img/rawImage.jpg" alt="pizza pic">
+       <img class="img-pizza" src="img/R.jpg" alt="pizza pic">
+    <img class="img-pizza" src="img/OIP.jpg" alt="pizza pic">
+   <img class="img-pizza" src="img/OIP (1).jpg" alt="pizza pic">
+  <img class="img-pizza" src="img/OIP (2).jpg" alt="pizza pic"> 
+   <img class="img-pizza" src="img/OIP (3).jpg" alt="pizza pic"> 
+</div>
+    
+</header>
+<!-- add our hero image/masthead -->
+<section class="lesson-masthead">
+  <h1>Customize your Pizza</h1>
+</section>
+<!-- adding a div as a flex container for the main and aside -->
+<div class="flex-content-container">
+<!-- add our main element to contain all of our pages main content -->
+
+  <!-- two column row -->
+  <section>
+  
+      <h3>Choose Your Size</h3>
+     <form>
+      <input type= "radio" id="size-small" name="size" value="Small">
+<label for="size-small" >Small</label><br>
+      <input type= "radio" id="size-medium" name="size" value="Medium">
+<label for="size-medium" >Medium</label><br>
+<input type= "radio" id="size-large" name="size" value="Large">
+<label for="size-large" >Large</label><br>
+
+</form>
+  </section>
+  <div>
+         <h3>Toppings</h3>
+<form>
+            <input type= "checkbox" id="Onion" name="Toppings" value="Onion">
+             <label for="Onion" >Onion</label>
+<input type= "checkbox" id="Pepperoni" name="Toppings" value="Pepperoni">
+             <label for="Pepperoni" >Pepperoni</label>
+<input type= "checkbox" id="Mushroom" name="Toppings" value="Mushroom">
+             <label for="Mushroom" >Mushroom</label><br>
+<input type= "checkbox" id="Extra-cheese" name="Toppings" value="Extra-cheese">
+             <label for="Extra-cheese" >Extra cheese</label>
+<input type= "checkbox" id="Sausage" name="Toppings" value="Sausage">
+             <label for="Sausage" >Sausage</label><br>
+<input type= "checkbox" id="Black-olives" name="Toppings" value="Black-olives">
+             <label for="Black-olives" >Black olives</label>
+<input type= "checkbox" id="Green-pepper" name="Toppings" value="Green-pepper">
+             <label for="Green-pepper" >Green pepper </label>
+<input type= "checkbox" id="Spinach" name="Toppings" value="Spinach">
+             <label for="Spinach" >Spinach</label>
+
+</form>
+  </div>
+<!-- driks -->
+<aside>
+  <div>
+  <h3>Drinks</h3>
+  <form>
+    <figure>
+      <input type="checkbox" id="Coca-Cola" name="drinks" value="Coca-Cola">
+      <label for="Coca-Cola">
+        <img class="drinks-img" src="img/soft7010_1.jpg" alt="Coca Cola">
+        Coca Cola
+      </label>
+      <figcaption>Coca Cola</figcaption>
+    </figure>
+    <figure>
+      <input type="checkbox" id="Sprite" name="drinks" value="Sprite">
+      <label for="Sprite">
+        <img class="drinks-img" src="img/Sprite.jpeg" alt="Sprite">
+        Sprite
+      </label>
+      <figcaption>Sprite</figcaption>
+    </figure>
+    <figure>
+      <input type="checkbox" id="Pepsi" name="drinks" value="Pepsi">
+      <label for="Pepsi">
+        <img class="drinks-img" src="img/R (1).jpg" alt="Pepsi">
+        Pepsi
+      </label>
+      <figcaption>Pepsi</figcaption>
+    </figure>
+    <figure>
+      <input type="checkbox" id="Water-Bottle" name="drinks" value="Water-Bottle">
+      <label for="Water-Bottle">
+        <img class="drinks-img" src="img/R (2).jpg" alt="Water Bottle">
+        Water Bottle
+      </label>
+      <figcaption>Water Bottle</figcaption>
+    </figure>
+  </form>
+</aside>
+</div>
+
+<footer>
+  <div id="order-Conformation">
+    <h2>Order-Conformation</h2>
+<img class="img-logo" src="/img/pizza-hut-logo-transparent-2.png" alt="header logo">
+
+     <p>Thank you for your order!</p>
+    <form method="post" action="somefile">
+      <p><input type="text" name="name" placeholder="Customer Name"></p>
+      <p><input type="email" name="email" placeholder="Customer Email"></p>
+      <p><textarea placeholder="Special Instruction"></textarea></p>
+
+      <input type="submit" value="Place Order">
+    </form>
+ 
+</div>
+</footer>
+</body>
+</html>
+       
+      
